@@ -70,8 +70,7 @@ input:focus , textarea:focus{
     outline:0 none;
 }
 form button{
-    background: lightblue;
-    text
+    width: 40%;
 }
     
 
