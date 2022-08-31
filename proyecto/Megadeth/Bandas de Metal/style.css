@@ -1,0 +1,54 @@
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  color: white ;
+}
+
+h3 {
+  font-size: 25px;
+  color: white;
+  }
+
+h4 {
+  color: white;
+}  
+
+img { 
+  padding: 15px;
+  background-color: black;
+  border-width: black;
+  border-style: solid;
+  width: 300px;
+}
+
+.bordes-redondeados {
+  border-radius: 40%;
+}
+
+[type="checkbox"] {
+  margin: 5px;
+}
+
+[type="text"] {
+  margin: 5px;
+}
+
+[type="submit"] {
+  margin: 8px;
+}
+
+body{
+  background-color: black;
+}
+
+p {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+ul {
+  color: white;
+}
