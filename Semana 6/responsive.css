@@ -174,15 +174,15 @@ iframe{
 /*iconos fontawesome BAR SOCIAL*/
 .fab{
     color: white;
-    border: 1px solid transparent;
+    border: 50px solid transparent;
     margin: 0px;
 }
 .fa-youtube-square{
-    font-size: 32px;
+    font-size: 250;
     background-color: red;
 }
 .fa-facebook-square{
-    font-size: 32px;
+    font-size: 3px;
     background-color: darkblue;
 }
 .fa-twitter-square{
