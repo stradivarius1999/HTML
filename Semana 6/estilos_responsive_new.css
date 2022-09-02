@@ -17,9 +17,9 @@ body{
     border: 2px solid blue;
     border-radius: 20px 20px 10px 10px;
     display: flex;
-    flex-direction: row; /*dirección horizontañ o en fila*/
-    justify-content: center; /*alinea horizontalmente*/
-    align-items: center; /*alinea verticalmente*/
+    flex-direction: row; /*dirección horizontal o en fila*/
+    justify-content: center;  /*alinea horizontalmente*/
+    align-items: center;  /*alinea verticalmente*/
     grid-area: header; /*asigna nombre al contenedor*/
 }
 
@@ -128,7 +128,7 @@ iframe{
 }
 /*Se define estilos al contenedor grid en general vista PC a 3 COL.*/
 #grid-container{
-    display:grid;
+    display: grid;
     grid-gap: 10px;
     grid-template: 
     "header header header" 150px
@@ -145,44 +145,18 @@ iframe{
 #redes a i:hover{
     transform: scaleX(1.5);
 }
-/*Estilos iconos fontawesome*/
-.fa-home{
-    color: white;
-    font-size: 18px;
-}
-.fa-cart-arrow-down{
-    color: white;
-    font-size: 18px;
-}
-.fa-charging-station{
+/*Estilos a todos los iconos fontawesome*/
+i[class^="fa"]{
     color:white;
     font-size: 18px;
 }
-.fa-wpforms{
-    color: white;
-    font-size: 18px;
-}
-.fa-user{
-    color: white;
-    font-size: 18px;
-}
-/*estilos al buscador search*/
-.fa-search{
-    color: white;
-    font-size: 18px;
-}
-/*iconos fontawesome BAR SOCIAL*/
-.fab{
-    color: white;
-    border: 50px solid transparent;
-    margin: 0px;
-}
+/*iconos fontawesome Bar Social*/
 .fa-youtube-square{
-    font-size: 250;
+    font-size: 32px;
     background-color: red;
 }
 .fa-facebook-square{
-    font-size: 3px;
+    font-size: 32px;
     background-color: darkblue;
 }
 .fa-twitter-square{
@@ -197,8 +171,8 @@ iframe{
     font-size: 32px;
     background-color: orangered;
 }
+/*ultimos cambios hechos a icono hamburguesa*/
 .fa-bars{
-    font-size: 30px;
     font-size: 30px;
     color: black;
 }
@@ -216,7 +190,7 @@ iframe{
         "nav main" 800px
         "nav main" 700px
         "sidebar sidebar" 650px
-        "footer footer" 100px
+        "footer footer" 100px /
         250px 450px;
         font-size: 75%;/*Cambia el tamaño de la letra*/
     
