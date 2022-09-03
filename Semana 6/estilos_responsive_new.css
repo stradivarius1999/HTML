@@ -35,7 +35,7 @@ li{
     font: bold 12px verdana;
 }
 a{
-    color: white;
+    color: rgb(10, 9, 9);
     text-decoration: none; /*quitar las lineas subrayadas*/
 }
 #menu{
