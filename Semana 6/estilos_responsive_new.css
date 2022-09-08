@@ -61,7 +61,7 @@ a{
     transition: 0.8s ease;
 }
 /*Se aplica una pseudoclase hover para expandir ancho de buscador */
-.buscarbox input :hover{
+.buscarbox input:hover{
     width: 150px;
     padding-left: 10px;
     outline: none; /*quitar bordes*/
