@@ -7,7 +7,15 @@ h1,h3{
     color: white;
 }
 /* Se establece la propiedad perspective:1000px para colocar perspectiva 3D, otra propiedad transform-style: preserve-3d se utiliza para lograr efecto 3d al girar imágen en conjunto con la transformación rotateY además se asigna backface-visibility: hidden para que al momento de hacer el giro no se vea completamente*/
-
+#miCarrusel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active{
+    height: 90vh;
+}
+.carousel-caption{
+    background: rgba(0, 0, 0, 0.6);
+}
 .flip-container {
     background-color: black;
     width: 100%;
