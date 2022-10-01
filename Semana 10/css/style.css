@@ -1,14 +1,15 @@
 :root{
---back: rgba(0, 0, 83, 0.5);
---fonts:rgba(13, 215, 63, 0.928);
+--back: rgba(0, 0, 0, 0.75);
+--fonts:rgb(17, 1, 20);
 } 
 
 body{
 	margin: 0;
 	padding: 0;
 	font-family: 'BenchNine', sans-serif;
-	background-image: url(../img/gold_background_11.jpg);
+	background-image: url(../img/protruding-squares.png);
 	/* background-color: var(--back); */
+	background-color: var(--back);
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
