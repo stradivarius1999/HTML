@@ -1,10 +1,8 @@
 
-
 body{
     margin: 0;
     text-align: left;
     font-family: Garmouth Display;
-     
     background-image: url(../IMG/pasta.jpeg);
     position:relative;
     padding-bottom: 8em;
@@ -177,10 +175,13 @@ span.rotate:hover {
 /* footer */
 .footer {
     background-color: black; 
-    width: 90%;
-    padding: 2em 0;
+    width: 100%;
+    padding: 1rem;
     position: absolute;
+    right: 0;
     bottom: 0; 
+    left: 0;
+    text-align: center; 
 }
 
   .footer p {

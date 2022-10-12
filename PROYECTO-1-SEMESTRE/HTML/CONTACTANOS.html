@@ -1,61 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactanos</title>
-</head>
-<body>
-    <!-- SECCION FORM CONTACTO -->
-<section class="contact">
-	<div class="container">
-		<div class="row">
-				<div class="contact-caption clearfix">
-					<div class="contact-heading text-center">
-						<h2>Contactanos</h2>
-					</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="../CSS/contactanos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-					<div class="col-md-5 contact-info text-left">
-						<h3>Informacion de Contacto</h3>
-						<div class="info-detail">
-							<ul><li><i class="fa fa-calendar"></i><span>Lunes - Viernes:</span> 9:00 AM to 6:00 PM</li></ul>
-							<ul><li><i class="fa fa-map-marker"></i><span>Direccion:</span> Av 1er de Mayo #25-30</li></ul>
-							<ul><li><i class="fa fa-phone"></i><span>Telefono:</span> 310-960-44-21</li></ul>
-							<ul><li><i class="fa fa-envelope"></i><span>Correo:</span> Itanos@gmail.com</li></ul>
-						</div>
-					</div>
+    
+  </head>
+  <body>
 
-
-					<div class="col-md-6 col-md-offset-1 contact-form">
-						<h3>Dejanos un Mensaje</h3>
-
-						<form class="form">
-							<input class="name" type="text" placeholder="Nombre">
-							<input class="email" type="email" placeholder="Correo">
-							<input class="phone" type="text" placeholder="Telefono:">
-							<textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
-							<input class="submit-btn" type="submit" value="Enviar">
-						</form>
-					</div>
-
-				</div>
-		</div>
-	</div>
-</section>
-
-<!-- SECCION DE MAPA  -->
-<section class="api-map" id="contact">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-10 map" id="map">
-            
-                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d11106.292773550924!2d-74.0540207006264!3d4.668437385689803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8e3f9af537991dfb%3A0x5556d372ede48988!2zWm9uYSBUIEJvZ290w6EsIENhbGxlIDgzLCBCb2dvdMOh!3m2!1d4.667612399999999!2d-74.0541186!5e0!3m2!1ses-419!2sco!4v1664971236518!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-                
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <div class="navbar">
+            <a class="navbar-brand" href="../HTML/ITANOS1.HTML"><img src="../IMG/Logo_preview_rev_1.png"  width="100" height="70" alt="Main logo"></a>
+        
+        <b><h1>ITANOS</h1></b>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="ITANOS1.HTML">Inicio</a>
+            <a class="nav-item nav-link" href="../pdf/menu.pdf">Menu</a>
+            <a class="nav-item nav-link" href="../HTML/CONTACTANOS.html">Contactanos</a>
+            <a class="nav-item nav-link" href="../HTML/ACERCA DE NOSOTROS.HTML">Acerca de nosotros</a>
+            <a class="nav-item nav-link" href="Domicilios.html">Domicilios</a>
             </div>
-		</div>
-	</div>
-</section>
-</body>
-</html>
+            <form class="navbar-form navbar-left" action=" ">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Buscar aquí..." name="search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+            </div>
+            </form>
+        </div>
+        </nav>
+
+    <div class="container">
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">CONTACTATE CON ITANOS</h3>
+          <p class="text">
+            No dudes en ponerte en contacto con nosotros si tienes dudas o sugerencias. <br>
+            Lunes - Viernes: 9:00 AM a 6:00 PM <br>
+            Direccion: Av 1er de Mayo #25-30 <br>
+
+            Si quieres trabajar con nosotros, postulate aquí.
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="../IMG/email.png" class="icon" alt="" />
+              <p>servicioalclienteitanos@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="../IMG/phone.png" class="icon" alt="" />
+              <p>4498972</p>
+            </div>
+          </div>
+
+        <div class="contact-form">
+
+          <form action="index.html" autocomplete="off">
+          
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Escribe tu nombre</label>
+              <span>Username</span>
+            </div>
+
+
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+
+
+
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Telefono o celular</label>
+              <span>Phone</span>
+            </div>
+
+
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Dejanos un mensaje estamos atentos a todos los comentarios</label>
+              <span>Message</span>
+            </div>
+
+
+            <input type="submit" value="Enviar" class="btn" />
+
+            <br>
+            <br>
+
+            <section class="api-map" id="contact">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-10 map" id="map">
+                        
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d11106.292773550924!2d-74.0540207006264!3d4.668437385689803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8e3f9af537991dfb%3A0x5556d372ede48988!2zWm9uYSBUIEJvZ290w6EsIENhbGxlIDgzLCBCb2dvdMOh!3m2!1d4.667612399999999!2d-74.0541186!5e0!3m2!1ses-419!2sco!4v1664971236518!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                            
+                        </div>
+                </div>
+              </div>
+            </section>
+          </form>
+        </div>
+      </div>
+    </div>
