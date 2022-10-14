@@ -6,18 +6,13 @@
   border-top: 100;
 }
 
-body{
+body {
   background-image: url(../IMG/pasta.jpeg);
-
+  font-family: 'Fuzzy Bubbles', cursive;
 }
 
 navbar navbar-expand-lg navbar-light bg-light fixed-top{
   padding: 100px;
-}
-
-input,
-textarea {
-  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -156,8 +151,6 @@ form {
   color: #333;
   margin: 1.5rem 0 2rem 0;
 }
-
-
 
 .information {
   display: flex;

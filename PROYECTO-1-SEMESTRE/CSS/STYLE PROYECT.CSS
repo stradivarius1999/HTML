@@ -2,7 +2,7 @@
 body{
     margin: 0;
     text-align: left;
-    font-family: Garmouth Display;
+    font-family: 'Fuzzy Bubbles', cursive;
     background-image: url(../IMG/pasta.jpeg);
     position:relative;
     padding-bottom: 8em;
@@ -186,5 +186,8 @@ span.rotate:hover {
         font-size: 10px;
     }
 
+.p {
+    list-style-type: georgian;
+}
 
 

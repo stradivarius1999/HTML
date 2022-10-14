@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../IMG/fondo.jpeg);
-    font-family: 'Poppins',sans-serif;
+    background-image: url(../IMG/pasta.jpeg);
+    /* font-family: 'Poppins',sans-serif; */
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 .menu{
     padding: 0;
