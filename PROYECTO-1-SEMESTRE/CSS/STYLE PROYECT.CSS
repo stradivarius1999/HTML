@@ -1,6 +1,7 @@
 
 body{
     margin: 0;
+    margin-left: 80px;
     text-align: left;
     font-family: 'Fuzzy Bubbles', cursive;
     background-image: url(../IMG/pasta.jpeg);
@@ -87,7 +88,26 @@ padding: 0PX 0;
 }
 
 /* slider imagne */
+*{
+    margin: 0;
+    padding: 0;
+}
 
+
+h3.subt {
+    color: #292929;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+h3 {
+    letter-spacing: 0.2em;
+}
+
+h3, h4, h5 {
+    color: #6f6f6f;
+    font-family: 'Oswald', sans-serif;
+}
 .row2 {
     margin-left: 0px !important;
 }
