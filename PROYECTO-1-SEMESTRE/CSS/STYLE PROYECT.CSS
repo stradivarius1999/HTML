@@ -37,9 +37,7 @@ padding: 0PX 0;
 .carousel-item.active{
     height: 100vh;
 }
-.carousel-caption{
-    background: rgba(0, 0, 0, 0.6);
-}
+
 .flip-container {
     background-color: white;
     width: 100%;
@@ -95,11 +93,11 @@ padding: 0PX 0;
 }
 
 .Blanco {
-    background-color: white!important;
+    background-color: rgb(232, 0, 0)!important;
 }
 
 .Blanco2 {
-    background-color: rgb(159, 236, 249) !important;
+    background-color: rgb(205, 240, 246) !important;
 }
 
 .Widget-1,
@@ -111,8 +109,8 @@ padding: 0PX 0;
 .Widget-7,
 .Widget-8 {
     background-color:white !important;
-    color: bisque;
-    border: blanchedalmond 8px solid;
+    color: rgb(99, 60, 13);
+    border: rgb(205, 240, 246) 7px solid;
 }
 
 img.showText {
