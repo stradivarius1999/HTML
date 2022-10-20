@@ -22,7 +22,7 @@
         cantidad=parseInt(prompt("Ingrese cantidad comprada:"));
 
         //PROCESO
-        total=cantidad*precio ;
+        total=cantidad*precio;
 
         //SALIDA
         alert("Su valor a pagar es ..."+"\n"+ total);
@@ -30,12 +30,14 @@
 
         //Validacion de monto a pagar
         pago=parseInt(prompt("Ingrese monto efectivo pagado"));
-        saldo=total-pago
+        saldo=total-pago;
 
-        if (pagp==total){
+        if (pago==total){
             alert("TODO OK, GRACIAS POR SU COMPRA");
-        }else if (Pago<total){
+        }else if (pago<total) {
             alert("FALTA DINERO PARA CANCELAR SU COMPRA...$"+ saldo);
+        }else{
+            alert("TOME SU CAMBIO POR SU COMPRA...$" + saldo);
         }
         document.write("GRACIAS POR SU COMPRA");
     </script>
