@@ -1,0 +1,16 @@
+
+body{
+    background-color:blue;
+    text-align: center;
+    
+}
+
+.figure{
+    margin-right: 15px;
+}
+
+.figure-caption, text center{
+    color: black;
+}
+
+
