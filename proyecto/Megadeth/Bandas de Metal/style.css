@@ -15,10 +15,8 @@ h4 {
 
 img { 
   padding: 15px;
-  background-color: black;
-  border-width: black;
-  border-style: solid;
-  width: 300px;
+  width: 5%;
+  margin-right: 50px;
 }
 
 .bordes-redondeados {
