@@ -1,0 +1,30 @@
+@media (max-width:450px) {
+     body{ background-color: black; }
+     }
+
+body{
+    background-color: chartreuse;
+    text-align: center;
+    
+}
+
+.container{
+    display:flex;   
+    justify-content: center;
+    margin-top: 135px auto;
+    
+}
+
+.img-1{
+    margin-right: 15px auto;
+}
+.img-2{
+    margin-left: 15px ;
+}
+
+figure, figcaption{
+    display: inline;
+    margin: 20px 20px;
+    padding: 5px 5px;
+}
+
