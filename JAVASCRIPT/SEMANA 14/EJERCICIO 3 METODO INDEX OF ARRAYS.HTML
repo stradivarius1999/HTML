@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>METODO INDEX OF</title>
+</head>
+<body>
+    <center>
+        <h1>METODO INDEX OF</h1>
+            <h3>BUSQUEDA DE ELEMNTOS EN ARRAYS</h3>
+            <p id="std"></p>
+            <script> 
+
+            let teachers =["Alexys","Jhon","Daniel","Francisco","Dario","José","Alvaro"];
+
+            //Nombres que comiencen por letra A
+
+            for (i=0;i<teachers.length;i++){
+                if (teachers[i].toUpperCase().indexOf("A")===0) {
+                    console.log(teachers[i]);
+                    document.write(teachers[i] +"<br>");
+                }
+            }
+            //
+            let index=teachers.indexOf("Alexys");
+            document.write("Profesor se encuentra en el indice No.");
+            document.getElementById("std").innerHTML=index;
+
+            </script>
+    </center>
+</body>
+</html>
