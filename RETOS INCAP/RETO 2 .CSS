@@ -4,17 +4,12 @@ body{
 
 }
 
-.container{
-    display:inline-block;
-    justify-content:center;
-    margin-top: 135px;
-    
-}
+
 
 section{
     display: flex;
-    justify-content: center;
-    align-items:center
+    justify-content:space-between;
+    align-items: center;
     
 }
 
