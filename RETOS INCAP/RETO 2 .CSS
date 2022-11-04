@@ -1,28 +1,38 @@
 body{
     background-color:red;
     text-align: center;
+
+}
+
+
+
+section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 250px;
+    padding: 10px;
     
 }
 
-.contenedor{
-    display:flex;
-    height: 50vh;
-    flex-direction:row;
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+img{
+    display: flex;
     justify-content:center;
-    align-items:center;
+    align-content: space-between;
+    margin-right: 55px;
 }
 
-.img-1{
-    margin-right: 30px;
-    
+@media(max-width:700px){
+    section{
+        flex-direction: column;
+    }
 }
-
-.img-2{
-    margin-left: 30px;
-}
-
-.img-3{
-    margin-left: 50px;
-}
-
-
