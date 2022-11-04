@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTOS ONMOUSE AND ONDBLCLICK</title>
+</head>
+<body>
+    <div id="container">
+        <div id="cubo-1" onmouseover="ocultarcubo1()" onmouseout="mostrarcubo1()">CUBO 1
+        <figcaption>Pasa el mouse por encima del cubo</figcaption>
+        </div>
+        <div id="cubo-2" onmousedown="colorearcubo2()" onmouseup="descolorearcubo2()">CUBO 2
+        <figcaption>Da clic sostenido y suelta en el cubo</figcaption>
+        </div>
+        <div id="cubo-3" ondblclick="animarcubo3()" onmouseout="retrocubo3()">CUBO 3
+        <figcaption>Da dobleclic en el cubo</figcaption>
+        </div>
+    </div>
+    <script>
+        //PRIMER CUBO
+        function ocultarcubo1()
+        {
+            document.getElementById("cubo-1").style.visibility="hidden";
+        }
+        
+    </script>
+</body>
+</html>
