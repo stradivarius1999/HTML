@@ -24,7 +24,52 @@
         {
             document.getElementById("cubo-1").style.visibility="hidden";
         }
-        
+        function mostrarcubo1()
+        {
+            document.getElementById("cubo-1").style.visibility="visible";
+        }
+        //SEGUNDO CUBO
+        function colorearcubo2()
+        {
+            document.getElementById("cubo-2").style.backgroundColor="yellow";
+        }
+        function descolorearcubo2()
+        {
+            document.getElementById("cubo-2").style.backgroundColor="red";
+        }
+        //TERCER CUBO
+        function animarcubo3()
+        {
+            document.getElementById("cubo-3").style.transform="Rotate(45deg)";
+            document.getElementById("cubo-3").style.transition="all 0.9s ease";
+        }
+        function retrocubo3(){
+            document.getElementById("cubo-3").style.transform="Rotate(0deg)";
+            document.getElementById("cubo-3").style.transition="all 0.8s ease";
+        }
     </script>
+    <style>
+        #container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        div[id^="cubo"]{
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            color: white;
+            margin: 40px;
+        }
+        #cubo-1{
+            background-color: blue;
+        }
+        #cubo-2{
+            background-color: red;
+        }
+        #cubo-3{
+            background-color: green;
+        }
+    </style>
 </body>
 </html>
