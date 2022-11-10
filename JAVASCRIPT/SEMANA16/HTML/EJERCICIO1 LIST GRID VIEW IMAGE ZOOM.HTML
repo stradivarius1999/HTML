@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/LIST GRID VIEW.CSS">
+    <script src="../JS/LIST VIEW.JS"></script>
     <title>PLANTILLA</title>
 </head>
 <body>
@@ -32,14 +35,14 @@
         <div class="row">
           <div class="column computador">
             <div class="content">
-             <a href="./EJEMPLO  ZOOM IMAGE.html"><img src="../IMG/portatiles4.jpg" alt="" style="width:250px; height:250px;"></a>
+             <a href="EJEMPLO ZOOM IMAGE1.HTML"><img src="../IMG/portatiles4.jpg" target="_blank" alt="" style="width:250px; height:250px;"></a>
               <h4>Portátil Gamer ACER 15.6" </h4>
               <p>Intel Core i5 - RAM 8GB - HDD 1 TB </p>
             </div>
           </div>
           <div class="column computador">
             <div class="content">
-              <a href="./EJEMPLO  ZOOM IMAGE2.html">
+              <a href="./EJERCICIO ZOOM 2.HTML">
             <img src="../img/portatiles2.jpg" alt="" style="width:250px;height:250px;"></a>
               <h4>Portatil HP 14"</h4>
               <p>Intel Core i3- 4 GB RAM- DD 1TB</p>
@@ -101,6 +104,12 @@
         
         <!-- END MAIN CONTAINER-->
         </div>
-        
+        <script>
+        const chk = document.getElementById('chk');
+
+        chk.addEventListener('change', () => {
+        document.body.classList.toggle('dark');
+        });        
+        </script>
 </body>
 </html>
