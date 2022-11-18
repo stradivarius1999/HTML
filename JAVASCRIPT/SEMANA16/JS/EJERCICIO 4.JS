@@ -51,9 +51,4 @@ for(let i = 0; i < btns.length; i++) {
     });
 }
 
-//BOTÓN TOGGLE SWITCHE
 
-const chk = document.getElementById('chk');
-    chk.addEventListener('change', () => {
-        document.body.classList.toggle('dark');
-    });
