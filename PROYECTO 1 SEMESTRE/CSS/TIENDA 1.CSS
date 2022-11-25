@@ -10,7 +10,7 @@
             }
             
             .bodyL {
-                background-color: #bdc3c7 !important;
+                background-color: black !important;
                 color: #000;
                 margin: 5px !important;
                 padding: 0 !important;
@@ -18,7 +18,7 @@
             }
             
             .headerL {
-                background-color: whitesmoke !important;
+                background-color: red !important;
                 border-radius: 4px;
                 padding-left: 20px !important;
                 padding-top: 20px !important;
@@ -112,7 +112,7 @@
             }
             
             .Azulito {
-                background-color: #2067a3 !important;
+                background-color: red !important;
             }
             
             .Widget-1,
@@ -130,13 +130,13 @@
             }
             
             .containerL {
-                background-color: #bdc3c7 !important;
+                background-color: black !important;
                 padding: 20px !important;
                 border-radius: 4px !important;
             }
             
             Footer {
-                background-color: #2067a3;
+                background-color: black;
                 color: #fff;
             }
             
@@ -270,7 +270,7 @@
             /*Color Fondo Contacto*/
             
             .Gris {
-                background-color: #6f6f6f !important;
+                background-color: black !important;
                 padding: 1em;
             }
             /*Buttons

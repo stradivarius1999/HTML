@@ -31,12 +31,12 @@ p.Subtitilo {
 }
 
 p.Descripcion {
-    color: #6f6f6f;
+    color: black;
     font-size: 14px;
 }
 
 p.Precio {
-    color: #6f6f6f;
+    color: red;
     font-size: 18px;
 }
 
