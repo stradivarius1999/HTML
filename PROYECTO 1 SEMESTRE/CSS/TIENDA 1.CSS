@@ -3,7 +3,17 @@
             /* {
                 outline: 1px red solid;
             }*/
+
+            @media (max-width:800px){
+                    body {
+                        justify-content: column;
+                    }
+                    li {
+                        padding: 10px 0px;
+                    }
+                }
             
+
             * {
                 margin: 0;
                 padding: 0;
@@ -30,7 +40,7 @@
                 
             }
             
-            ul {
+            ol {
                 padding: 0 0;
                 margin: 0 0px;
                 display: block;
