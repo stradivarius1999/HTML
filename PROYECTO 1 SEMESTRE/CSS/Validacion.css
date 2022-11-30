@@ -118,14 +118,23 @@ body{
     width: 50%;
     font-size: 20px;
     border-radius: 30px;
-    text-decoration: none;
-}
+}   
 
 .btn-social-google{
-    background-color: white;
-    color: black;
+    background-color: greenyellow;
+    color: white;
     width: 50%;
     font-size: 20px;
     border-radius: 30px;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
 

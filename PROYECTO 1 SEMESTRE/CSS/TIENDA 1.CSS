@@ -20,8 +20,8 @@
             }
             
             .bodyL {
-                background-color: black !important;
-                color: #000;
+                background-image: url(../IMG/pasta.jpeg);
+                color: rgb(9, 8, 8);
                 margin: 5px !important;
                 padding: 0 !important;
                 font-family: 'Josefin Sans', sans-serif !important;
@@ -140,7 +140,7 @@
             }
             
             .containerL {
-                background-color: black !important;
+                background-color: white !important;
                 padding: 20px !important;
                 border-radius: 4px !important;
             }
@@ -148,11 +148,20 @@
             Footer {
                 background-color: black;
                 color: #fff;
+                width: 100%;
+                padding: 2rem;
+                margin: 0;
+                right: 0;
+                bottom: 0; 
+                left: 0;
+                
             }
             
             .designBy {
-                background-color: #f8f8f8;
+                background-color: black;
                 text-align: center;
+                color: white;
+                position:absolute;
             }
             
             img.Logo {
@@ -180,7 +189,7 @@
                 position: absolute;
                 top: 12%;
                 left: 12%;
-                background: white;
+                background: black;
                 color: black !important;
                 padding: 10px;
                 font-family: sans-serif;
