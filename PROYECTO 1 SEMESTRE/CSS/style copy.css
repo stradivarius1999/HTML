@@ -12,6 +12,7 @@ body{
     padding: 100vh;
 }
 
+
 .miv{
     background-color: #1b3039;
     font-family: 'Fuzzy Bubbles', cursive;
@@ -124,7 +125,7 @@ section:nth-child(even){
     }
     
     header{
-        padding:1rem 2rem;
+        justify-content: column;
     }
 
     section{
