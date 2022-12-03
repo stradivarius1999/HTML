@@ -39,7 +39,7 @@
                 justify-content: space-between;
                 
             }
-             
+                
             
             ol {
                 padding: 0 0;
@@ -145,6 +145,7 @@
                 background-color: white !important;
                 padding: 20px !important;
                 border-radius: 4px !important;
+                
             }
             
             Footer {

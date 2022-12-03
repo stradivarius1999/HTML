@@ -26,13 +26,13 @@
   /* Agrega padding entre cada column */
   .row,
   .row > .column {
-    padding: 8px;
+    padding: 4px;
   }
   
   /* Crea 3 columns iguales que flotan entre ellas */
   .column {
     float: left;
-    width: 33.33%;
+    width: 49.1%;
     display: none; /* Oculta todos los elementos por default */
   }
   
@@ -50,7 +50,7 @@
     color:rgb(0, 0, 0);
   }
   img,h4,p{
-  margin-left: 18px;
+  margin-left: 1px;
   }
   /* la class "show" es agregada a los elementos filtrados */
   .show {

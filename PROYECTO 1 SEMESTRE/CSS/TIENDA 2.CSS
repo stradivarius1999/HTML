@@ -105,16 +105,16 @@ input[type="radio"] {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .post img {
-    width: 250px;
+    width: 200px;
     height: 180px;
 }
 
 .posts li.post {
-    width: 260px;
+    width: 220px;
 }
 
 .posts {
-    display: grid;
+    display:grid;
     grid-gap: 1.5rem;
     grid-template-columns: repeat(4, 1fr);
     /*display: inline-block;*/
@@ -122,7 +122,7 @@ input[type="radio"] {
 
 .posts .post {
     background: #fafafa;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 5px solid rgba(0, 0, 0, 0.1);
 }
 
 .posts .post-title {
